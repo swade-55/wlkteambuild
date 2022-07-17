@@ -2,3 +2,4 @@ streamlit
 streamlit-aggrid
 pandas
 plotly
+openpyxl
