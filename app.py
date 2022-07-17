@@ -160,7 +160,7 @@ def main() -> None:
                 "today's_gain_loss_dollar",
                 "today's_gain_loss_percent",
             ),
-            cellStyle=cellsytle_jscode,
+            #cellStyle=cellsytle_jscode,
         )
         gb.configure_pagination()
         gb.configure_columns(("Total_Routes", "Stops"), pinned=True)
