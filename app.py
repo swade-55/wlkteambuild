@@ -5,7 +5,7 @@ from st_aggrid.shared import JsCode
 from st_aggrid.grid_options_builder import GridOptionsBuilder
 import pandas as pd
 import plotly.express as px
-#from io import BytesIO
+from io import BytesIO
 from pandas.tseries.offsets import *
 
 
