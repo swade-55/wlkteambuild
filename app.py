@@ -107,8 +107,8 @@ def main() -> None:
         df = clean_data(df)
 
 
-        #with st.expander("Cleaned Data"):
-        #   st.write(df)
+        with st.expander("Cleaned Data"):
+           st.write(df)
 
         st.sidebar.subheader("Filter Displayed Routes")
 
