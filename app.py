@@ -22,7 +22,7 @@ COMMON_ARGS = {
 }
 
 
-@st.experimental_memo
+#@st.experimental_memo
 def clean_data(df: pd.DataFrame) -> pd.DataFrame:
     df = df.copy()
     df = pd.read_excel(r'C:\Users\swade\Desktop\test5.xlsx')
@@ -53,7 +53,7 @@ def clean_data(df: pd.DataFrame) -> pd.DataFrame:
     pivot = pivot.rename(columns = {'Stops_y':'Stops'})
     return pivot
 
-@st.experimental_memo
+#@st.experimental_memo
 def filter_data(
     df: pd.DataFrame, account_selections: list[str], #symbol_selections: list[str#]
 ) -> pd.DataFrame:
