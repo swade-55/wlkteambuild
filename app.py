@@ -1,14 +1,11 @@
 import functools
-from pathlib import Path
-
 import streamlit as st
 from st_aggrid import AgGrid
 from st_aggrid.shared import JsCode
 from st_aggrid.grid_options_builder import GridOptionsBuilder
 import pandas as pd
 import plotly.express as px
-import numpy as np
-from io import BytesIO
+#from io import BytesIO
 from pandas.tseries.offsets import *
 
 
@@ -230,11 +227,5 @@ def main() -> None:
         st.write("")
 
 
-if __name__ == "__main__":
-    st.set_page_config(
-        "EXE Team Selection Work Overview",
-        "📊",
-        initial_sidebar_state="expanded",
-        layout="wide",
-    )
-    main()
+
+main()
