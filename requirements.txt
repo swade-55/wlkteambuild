@@ -1,4 +1,3 @@
-functools
 streamlit
 streamlit-aggrid
 pandas
