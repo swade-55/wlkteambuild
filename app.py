@@ -7,6 +7,7 @@ import pandas as pd
 import plotly.express as px
 from io import BytesIO
 from pandas.tseries.offsets import *
+import xlsxwriter
 
 
 
